@@ -6,6 +6,24 @@
 			"name": "github"
 		},
 		"text": "GitHub",
-		"link": "https://github.com/louisescher/spectre"
+		"link": "https://github.com/demantar"
+	},
+	{
+		"id": 2,
+		"icon": {
+			"type": "lucide",
+			"name": "linkedin"
+		},
+		"text": "LinkedIn",
+		"link": "https://linkedin.com/in/benedikt-vilji"
+	},
+	{
+		"id": 3,
+		"icon": {
+			"type": "lucide",
+			"name": "mailbox"
+		},
+		"text": "Mail",
+		"link": "mailto:benedikt.vilji@gmail.com"
 	}
 ]

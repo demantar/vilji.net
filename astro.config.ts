@@ -21,7 +21,7 @@ const {
 
 // https://astro.build/config
 const config = defineConfig({
-	site: 'https://spectre.lou.gg',
+	site: 'http://vilji.net',
 	output: 'static',
 	integrations: [
 		expressiveCode({
@@ -30,15 +30,15 @@ const config = defineConfig({
 		mdx(),
 		sitemap(),
 		spectre({
-			name: 'Spectre',
+			name: 'Vilji',
 			openGraph: {
 				home: {
-					title: 'Spectre',
-					description: 'A minimalistic theme for Astro.',
+					title: 'Vilji',
+					description: 'My website',
 				},
 				blog: {
 					title: 'Blog',
-					description: 'News and guides for Spectre.',
+					description: 'An outlet for my thoughts',
 				},
 				projects: {
 					title: 'Projects',
