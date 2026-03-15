@@ -1,5 +1,5 @@
 import mdx from '@astrojs/mdx';
-import node from '@astrojs/node';
+import netlify from '@astrojs/netlify';
 import sitemap from '@astrojs/sitemap';
 import { defineConfig } from 'astro/config';
 import expressiveCode from 'astro-expressive-code';
@@ -57,7 +57,7 @@ const config = defineConfig({
 			},
 		}),
 	],
-	adapter: node({
+	adapter: netlify({
 		mode: 'standalone',
 	}),
 });
