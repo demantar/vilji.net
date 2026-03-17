@@ -29,10 +29,10 @@ const config = defineConfig({
 		mdx(),
 		sitemap(),
 		spectre({
-			name: 'Vilji',
+			name: 'Benedikt Vilji',
 			openGraph: {
 				home: {
-					title: 'Vilji',
+					title: 'vilji.net',
 					description: 'My website',
 				},
 				blog: {
